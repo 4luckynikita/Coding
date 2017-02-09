@@ -1,5 +1,20 @@
-body{
-    
-    text-align: center;
-    
+/* mobile  - less or equal 767*/
+@media (max-width: 767px) {
+  p {
+      color: blue;
+   }
+}
+
+/* tablets  - 768 -991*/
+@media (min-width: 768px) and (max-width: 991px) {
+  p {
+      color: red;
+   }
+}
+
+/* desktops  - greater or equal 992*/
+@media (min-width: 992px)  {
+  p {
+      color: green;
+   }
 }
