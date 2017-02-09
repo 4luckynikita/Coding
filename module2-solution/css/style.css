@@ -17,4 +17,21 @@
   p {
       color: green;
    }
+    #Chicken, #Beef, #Sushi{width: 25%;}
+}
+
+#Chicken, #Beef, #Sushi {
+    
+    background-color: aqua;
+    margin: 20px;
+    border: 3px solid black;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    display:inline-block;
+}
+h2{
+    
+    text-align: center;
 }
