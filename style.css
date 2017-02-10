@@ -1,0 +1,66 @@
+    /* mobile  - less or equal 767*/
+
+@media (max-width: 767px) {
+    p {
+        color: blue;
+    }
+}
+
+
+/* tablets  - 768 -991*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    p {
+        color: red;
+    }
+}
+
+
+/* desktops  - greater or equal 992*/
+
+@media (min-width: 992px) {
+    p {
+        color: green;
+    }
+    #Chicken,
+    #Beef,
+    #Sushi {
+        margin: 20px;
+    }
+}
+    #Chicken,
+    #Beef,
+    #Sushi {
+        background-color: aqua;
+        border: 0px solid black;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        padding-left: 6px;
+        padding-right: 6px;
+        display: inline-block;
+    }
+    h2 {
+        text-align: center;
+    }
+
+.innerHold{
+    float: left;
+    /*display: inline-block;*/
+    width:33.33333%;
+    /* make sure left/right margins or left/right padding are 0px here
+            - it'll mess with the width otherwise*/
+    margin-left:0px;
+    margin-right:0px;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+#hold{
+    width: 98%;
+    margin: 0px auto;
+    text-align:left;
+    margin-bottom: 10px;
+    background:#eee;
+    border:1px solid #bbb;
+    padding:20px 10px;
+}
