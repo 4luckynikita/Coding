@@ -1,25 +1,44 @@
     /* mobile  - less or equal 767*/
     
     @media (max-width: 767px) {
-        #Chicken,
-        #Beef,
-        #Sushi {
-            margin: 20px;
-        }
     }
     /* tablets  - 768 -991*/
     
     @media (min-width: 768px) and (max-width: 991px) {
+          
+        .innerHold_c,
+        .innerHold_b
+        {
+            float: left;
+            /*display: inline-block;*/
+            width: 50%;
+            /* make sure left/right margins or left/right padding are 0px here
+            - it'll mess with the width otherwise*/
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .innerHold_s{
+            float: left;
+            /*display: inline-block;*/
+            width: 100%;
+            /* make sure left/right margins or left/right padding are 0px here
+            - it'll mess with the width otherwise*/
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
     }
     /* desktops  - greater or equal 992*/
     
     @media (min-width: 992px) {
-        #Chicken,
-        #Beef,
-        #Sushi {
-            margin: 20px;
-        }
-        .innerHold {
+        
+        .innerHold_c,
+        .innerHold_b,
+        .innerHold_s{
             float: left;
             /*display: inline-block;*/
             width: 33.33333%;
@@ -31,6 +50,7 @@
             padding-right: 0px;
         }
     }
+/* for all medias  */
     
     #Chicken,
     #Beef,
@@ -42,6 +62,7 @@
         padding-left: 6px;
         padding-right: 6px;
         /*display: inline-block;*/
+        margin: 20px;
     }
     
     h2 {
