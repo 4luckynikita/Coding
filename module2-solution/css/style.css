@@ -63,7 +63,7 @@
         padding-right: 6px;
         /*display: inline-block;*/
         margin: 20px;
-        position: relative;
+        /* position: relative; */
         
     }
     
@@ -73,10 +73,38 @@
 #testythingy{
     
     border: 2px solid black;
-    position: absolute;
+    /* position: absolute; */
     top: 0px;
     right:0px;
     margin: 3px;
     padding: 3px;
 }
     
+/*   ------------------ sample -------------------------------- */
+
+.internalDiv {
+    margin-top: 30px;
+    padding:15px;
+}
+
+
+.rightHeader{
+    border: 2px solid black;
+    position: absolute;
+    top: -2px;
+    right:-2px;
+    margin: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color : red;
+}
+
+#testSushi {
+    border: 2px solid black;
+    position: relative;
+    background-color : lightgray;
+}
