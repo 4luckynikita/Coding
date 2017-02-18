@@ -12,3 +12,10 @@
     margin-right:45px;
     
 }
+
+li {
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    
+}
