@@ -1,4 +1,4 @@
-console.log('test');
+console.log("Names:")
 var helloSpeaker =  speak;
 
 var speakWord = "Hello";
@@ -7,12 +7,4 @@ var speakWord = "Hello";
 function speak(name) {
   console.log(speakWord + " " + name);
 }
-helloSpeaker("test");
 
-/*
-var speakWord = "Hello";
-
-function speak(name) {
-  console.log(speakWord + " " + name);
-}
-*/

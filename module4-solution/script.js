@@ -1,18 +1,14 @@
-
 (function () {
 
-var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+    var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+    for (var i = 0; i < names.length; i++) {
+        var firstLetter = names[i].charAt(0).toLowerCase();
 
-for (var i = 0; i < names.length; i++) {
-
-  
-  var firstLetter = names[i].charAt(0).toLowerCase();
-
-  if (firstLetter === 'j') {
-    speak(names[i]);
-  } else {
-      speakG(names[i]);
-  }
-}
+        if (firstLetter === 'j') {
+            speakG(names[i]);
+        } else {
+            speak(names[i]);
+        }
+    }
 
 })();
