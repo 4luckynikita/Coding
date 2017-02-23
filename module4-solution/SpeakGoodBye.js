@@ -1,10 +1,13 @@
+(function(){
 
-
-var byeSpeaker = speakG;
+var byeSpeaker = speak;
 
 
 var speakGWord = "Good Bye";
 
-function speakG(name) {
+function speak(name) {
   console.log(speakGWord + " " + name);
 }
+
+
+})();

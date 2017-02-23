@@ -1,10 +1,14 @@
-console.log("Names:")
-var helloSpeaker =  speak;
+var helloSpeaker = (function () {
 
-var speakWord = "Hello";
+    console.log("Names:")
 
 
-function speak(name) {
-  console.log(speakWord + " " + name);
-}
+    var speakWord = "Hello";
 
+
+    function speak(name) {
+        console.log(speakWord + " " + name);
+    }
+    return speak;
+
+})();
